@@ -1,0 +1,177 @@
+body {
+	
+	font-family: Segoe, "Segoe UI";
+	color: #FFFFFF;
+	Font-size: 14px; 
+	background-color: #000000
+		
+}
+
+header {
+	padding: 20px 0; 
+}
+
+
+#hero{ 
+	background-image: url(../img/slider-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 200px 0;
+	
+}
+
+#hero h1{
+	font-size: 80px;
+	font-weight: 650;
+	
+	
+}
+#hero p{
+	font-size: 20px;
+}
+
+
+.btn-rectangulo{  
+	background-color: transparent;
+	border: 1px solid #fff; 
+	color: #FFFFFF;
+	border-radius: 0;
+	padding: 10px 30px;
+	text-transform: lowercase;
+	font-weidth: 650px;
+
+}
+
+
+.btn-rectangulo:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-weidth: 650px
+}
+
+.class p{
+	text-align: center;
+	
+}
+
+#services{
+	padding: 50px 0;
+	
+}
+
+#scroll{
+	padding: 100px 0;
+	
+}
+
+#scroll .info-scroll{
+	text-align: center;
+	margin-bottom: 50px;
+	
+}
+#scroll .info-scroll h4{
+	padding: 10px 0;
+	
+}
+
+#scroll .info-scroll p{
+	padding: 5px 0;
+	margin-top: 2px;
+}
+
+
+
+.foto{
+	´position: relative; 
+}
+
+.overlay{
+	position: absolute;
+	top: 40%;
+	left: 0;
+	padding: 30px 10px; 
+	width: 90%;
+	background-color:rgba(0,0,0,0.70);
+	opacity: 0;
+	transition: all 0.3s easy-in-out;
+}
+
+.foto:hover .overlay{
+	opacity: 1;
+	transition: all 0.3s easy-in-out; 
+}
+
+.bg-over-blue{
+	background-color: rgba(10,12,50,0.80)
+}
+
+
+#logo-forms .overlay{
+	top: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	z-index: 1;
+	
+}
+
+
+#logo-forms .info-foto{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	text-align: center; 
+	background-color:#80630E;
+	z-index: 2;
+	
+}
+
+#logo-forms .foto:hover .overlay{
+	opacity: 1;
+	transition: all 0.3 ease-in-out
+}
+
+
+#page-header{
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 50px 0;
+}
+
+
+page-header h1 {
+	font-size: 26px 0; 
+}
+
+#content{ 
+padding: 45px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
